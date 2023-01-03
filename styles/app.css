@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
 body {
-    background-color: #ccc;
+    padding: 0;
 }

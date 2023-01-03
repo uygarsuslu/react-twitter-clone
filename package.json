@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\""
   },
   "repository": {
     "type": "git",
@@ -37,8 +38,10 @@
     "@storybook/manager-webpack5": "^6.5.15",
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
+    "@svgr/cli": "^6.5.1",
     "babel-loader": "^8.3.0",
     "css-loader": "^6.7.3",
+    "prettier": "^2.8.1",
     "style-loader": "^3.3.1"
   }
 }
