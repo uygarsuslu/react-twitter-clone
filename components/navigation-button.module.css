@@ -1,4 +1,5 @@
 .navButton {
+    position: relative;
     color: var(--c-text-color);
     padding: 10px;
     border-radius: 99px;
@@ -21,4 +22,20 @@
 
 .navButtonSelected {
     color: var(--c-theme)
+}
+
+.notify {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    height: 17px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    background-color: var(--c-theme);
+    color: var(--c-text-color);
+    font-size: 11px;
+    border: 1px solid var(--c-primary);
 }
