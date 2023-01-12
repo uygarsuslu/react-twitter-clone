@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import * as Icons from "../components/icons"
+import Photo from "../components/photo";
 
 export default {
     title: "Icons"
@@ -38,3 +39,5 @@ export const Icon = () => (
         <Icons.Twitter />
     </div>
 )
+
+export const ProfilePhoto = () => <Photo />
