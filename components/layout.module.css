@@ -1,0 +1,6 @@
+.layout {
+    display: grid;
+    grid-template-columns: 230px 1fr 230px;
+    min-height: 100vh;
+    background-color: #333;
+}
