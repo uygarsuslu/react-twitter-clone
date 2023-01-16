@@ -42,6 +42,7 @@
     "@svgr/cli": "^6.5.1",
     "babel-loader": "^8.3.0",
     "css-loader": "^6.7.3",
+    "postcss-custom-media": "^7.0.8",
     "postcss-loader": "^3.0.0",
     "postcss-nested": "^4.2.3",
     "prettier": "^2.8.1",
