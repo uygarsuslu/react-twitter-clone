@@ -7,7 +7,7 @@ import {Twitter, Home, Explore, Notification, Messages, Bookmark, Lists, Profile
 
 import styles from './navigation.module.css'
 
-function Navigation({selectedKey}) {
+function Navigation({flat = false, selectedKey}) {
     return <nav className={styles.nav}>
         <NavigationButton>
             <Twitter/>
