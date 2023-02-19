@@ -14,7 +14,7 @@
 
 ### TODO
 
-- [ ] Theme Support
+- [x] Theme Support
 - [ ] Tweet component
 - [ ] Api for timeline
 - [ ] Modal for tweeting

@@ -10,6 +10,15 @@
             margin-right: 15px;
         }
     }
+
+    /* module.css yazdığımız için "global" yazmak zorundayız */
+    &:global(.twitter) {
+        color: var(--c-theme);
+
+        :global(html:not(.light)) & {
+            color: white;
+        }
+    }
 }
 
 .navButtonSelected {
@@ -27,7 +36,7 @@
     display: flex;
     align-items: center;
     background-color: var(--c-theme);
-    color: var(--c-text-color);
+    color: #fff;
     font-size: 11px;
     border: 1px solid var(--c-primary);
 }
