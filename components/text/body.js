@@ -2,7 +2,7 @@ import React from "react"
 
 import cn from "classnames"
 
-import styles from "./text-body.module.css"
+import styles from "./body.module.css"
 
 function TextBody ({ bold = false, className, children, ...props }) {
     return (

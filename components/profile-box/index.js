@@ -2,11 +2,12 @@ import React from "react"
 
 import cn from "classnames"
 
-import styles from "./profile-box.module.css"
-import Photo from "./photo"
-import { ArrowBottom } from "./icons"
-import Button from "./button"
-import TextBody from "./text-body"
+import styles from "./style.module.css"
+
+import Photo from "../photo"
+import { ArrowBottom } from "../icons"
+import Button from "../button"
+import TextBody from "../text/body"
 
 function ProfileBox ({ flat = false, name = "hissikablelvuku", slug = "uygarsusluu"}) {
     return (
