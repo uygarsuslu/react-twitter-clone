@@ -2,12 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/messages": "pages/messages.js",
-  "/lists": "pages/lists.js",
-  "/bookmarks": "pages/bookmarks.js",
-  "/more": "pages/more.js",
-  "/profile": "pages/profile.js",
-  "/notifications": "pages/notifications.js",
-  "/explore": "pages/explore.js"
+  "/": "pages/index.js"
 }
