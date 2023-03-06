@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import '../styles/app.css'
 
@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
   const [theme, themeSet] = useState(null)
 
   // virtual dom oluştuğunda çalışıyor
-  useLayoutEffect(() => {
+  useEffect(() => {
     const theme = localStorage.getItem("THEME") || "light"
     themeSet(theme)
   }, [])
